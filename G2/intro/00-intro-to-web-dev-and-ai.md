@@ -103,9 +103,9 @@ Before we dive into coding and AI, take a few minutes to introduce yourself.
 
 
 ## Contact
-[Trainer mail]
+[jamandilivski@gmail.com]
 
 ## Materials
-[Github link]
+[[Github link to the materials overview](https://aa-codecademy.github.io/mkwd14-01-basicwebdev-and-ai/G2/)]
 
 
