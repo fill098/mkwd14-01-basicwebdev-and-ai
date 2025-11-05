@@ -1,5 +1,10 @@
 # Intro to AI driven Web development using HTML and CSS 📕
 
+
+* Modules
+  * [Intro](./intro/)
+
+
 ## Contact
 
-* Trainer: trainer@mail.com
+* Trainer: jamandilovski@gmail.com

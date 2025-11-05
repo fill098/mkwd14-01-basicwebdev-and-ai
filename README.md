@@ -9,5 +9,5 @@ You will get to know HTML and CSS as a ground floor for building web application
 
 * Groups
   * [G1](/G1/)
-  * [G2](/G2/)
+  * [G2](./G2/)
   * [G3](/G3/)
