@@ -1,0 +1,25 @@
+Prompts
+
+1. 
+ * I want to build a website. I want it to have my information's (make mock) want that site to have links to my github repository (make mock), to have pictures and explanations for the projects that i have (make mock projects). I want to use this site as a cv for searching jobs
+
+	*We want to go with option 1.
+	
+	*Lets change the name to Trajan Stevkovski
+	
+2.
+ * I’m learning about time management for students.
+ 
+3.
+ * Give me 5 tips for staying organized.
+
+4.
+ * Give me 5 practical tips for staying organized as a student who studies 3 hours per day and works full-time.
+	
+	* Explain option 1 in more details
+	
+5.
+ * Give me 7 healthy and easy-to-make snack ideas for someone who studies and works part-time. Include one sentence explaining why each snack is healthy.
+ 
+6.
+ * I want to start a healthy diet. Generate a 7 day plan for healthy snacks, make them different every day, Easy to make, do not use know allergens, add short explanation for every snack. I want to start easting healthy and lose weight
