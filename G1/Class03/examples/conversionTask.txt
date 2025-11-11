@@ -1,0 +1,15 @@
+begin
+    valueToConvert = input(); -> Brojka -> 100
+    currency = input(); -> text -> evro
+
+    rate = 61.5;
+
+    if currency = evro
+        conversion = valueToConvert * rate; -> conversion to euro
+        -> 100 * 61.5 = 6150
+    if currency = denar
+        conversion = valueToConvert / rate; -> conversion to denar
+    
+    print conversion;
+
+end

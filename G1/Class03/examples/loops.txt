@@ -1,0 +1,13 @@
+    // brojac    // expression  // incerement/decrement
+for counter = 0; counter <= 10; counter = counter + 1; 
+    // code
+    // code
+    // code
+end-for
+
+counter = 0;
+while (counter <= 10)
+    // code
+    // code
+    counter = counter + 1;
+end-while
