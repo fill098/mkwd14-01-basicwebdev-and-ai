@@ -1,4 +1,4 @@
-<!-- Generate minimal html 5 page with minimum elements so a beginner can understand the structure  -->
+```<!-- Generate minimal html 5 page with minimum elements so a beginner can understand the structure  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
