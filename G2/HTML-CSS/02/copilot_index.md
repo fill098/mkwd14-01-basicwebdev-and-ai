@@ -1,4 +1,5 @@
-```<!-- Can you generate a minimal HTML5 page structure with comments for each part? -->
+```html
+<!-- Can you generate a minimal HTML5 page structure with comments for each part? -->
 
 <!DOCTYPE html>
 <!-- Document Type Declaration - tells the browser this is an HTML5 document -->
@@ -34,3 +35,4 @@
 </body>
 </html>
 <!-- End of HTML document -->
+```

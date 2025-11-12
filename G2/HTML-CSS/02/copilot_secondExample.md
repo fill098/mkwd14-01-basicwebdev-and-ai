@@ -1,4 +1,5 @@
-```<!-- Generate minimal html 5 page with minimum elements so a beginner can understand the structure  -->
+```html
+<!-- Generate minimal html 5 page with minimum elements so a beginner can understand the structure  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,3 +13,4 @@
 </body>
 </html>
 <!-- End of HTML document -->
+ ```
