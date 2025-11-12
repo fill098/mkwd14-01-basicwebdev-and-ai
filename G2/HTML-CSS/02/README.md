@@ -6,8 +6,9 @@
   - [Code](./class-code.md)
 
 - Presentations
-- [HTML Tags](./intro-presentation/)
-- [Semantic markup](./semantic-markup-presentation/)
+
+  - [HTML Tags](./intro-presentation/)
+  - [Semantic markup](./semantic-markup-presentation/)
 
 - Copilot output code
   - [First example](./copilot_index.md)
