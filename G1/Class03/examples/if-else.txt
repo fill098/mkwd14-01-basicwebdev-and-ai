@@ -1,0 +1,8 @@
+convesionCurrncy = euro
+
+if expresion ( convesionCurrency = euro ) => true
+    then =>  code here will be executed
+else if expresion (convesionCurrency = denar) => true
+    then => code here will be executed
+else 
+    then =>  code here will be executed

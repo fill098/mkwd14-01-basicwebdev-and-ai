@@ -1,5 +1,5 @@
 # 🧠 Introduction to Programming and AI for Web Development – Session 3
-Trainer: [Name] | Contact: [email]
+Trainer: Trajan Stevkovski | Contact: trajanstevkovski@gmail.com
 
 ---
 
