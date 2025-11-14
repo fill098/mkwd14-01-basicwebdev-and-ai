@@ -4,7 +4,7 @@
 
   * [01 - Basic Web Concepts](./01/) 
   * [02 - HTML TAGS](./02/) 
-  * [03 - Class Code & Links](./03/)
+  * [03 - Links](./03/)
 
 
 

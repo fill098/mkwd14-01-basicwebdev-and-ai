@@ -1,31 +1,20 @@
 # 03 - Class Code and Links Presentation
 
-## Overview
+## Quick Navigation
 
-This folder contains the code and resources for the third lesson in the HTML & CSS series. It includes class code examples and a links presentation.
+### Class Code
+- [Class Code Homepage](./class-code/index.html)
+- [Class Code Source (README)](./class-code/README.md)
 
----
+### Links Presentation
+- [Links Presentation (Slides)](./links-presentation/presentation/index.html)
 
-## Folders and Files
-
-### class-code/
-- **index.html** – Homepage for the class code example.
-- **about-us/about-us.html** – About Us page.
-- **shoes/shoes.html** – Shoes page.
-- **shoes/boots.html** – Boots page.
-- **tShirts/t-shirts.html** – T-shirts page.
-
-### links-presentation/
-- **presentation/index.html** – Main file for the links presentation.
-- **presentation/assets/** – Assets for the presentation (images, CSS, JS, etc.).
-- **code/** – Example code for the links presentation.
-
----
-
-## How to Use
-
-- Open `class-code/index.html` to view the homepage and navigate to subpages.
-- Open `links-presentation/presentation/index.html` to view the links presentation.
+#### Example Code
+- [Example 1](./links-presentation/code/Example1/home.html) ([Source](./links-presentation/code/Example1/README.md))
+- [Example 2](./links-presentation/code/Example2/index.html) ([Source](./links-presentation/code/Example2/README.md))
+- [Example 3](./links-presentation/code/Example3/index.html) ([Source](./links-presentation/code/Example3/README.md))
+- [Example 4](./links-presentation/code/Example4/index.html) ([Source](./links-presentation/code/Example4/README.md))
+- [Example 5](./links-presentation/code/Example5/index.html) ([Source](./links-presentation/code/Example5/README.md))
 
 ---
 
