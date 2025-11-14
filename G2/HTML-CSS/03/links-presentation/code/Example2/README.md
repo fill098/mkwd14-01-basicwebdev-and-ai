@@ -2,11 +2,6 @@
 
 This folder contains the source code for Example 2 of the links presentation.
 
-- [Index](./index.html) ([Source](./README.md))
-- [Music](./music/) ([Music Source](./music/README.md))
-
----
-
 ## Source code: `index.html`
 
 ```html

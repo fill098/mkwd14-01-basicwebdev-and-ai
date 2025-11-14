@@ -1,24 +1,19 @@
-# 03 - Class Code and Links Presentation
+# HTML-CSS Lectures 📕
 
-## Quick Navigation
+- Class code
 
-### Class Code
-- [Class Code Homepage](./class-code/index.html)
-- [Class Code Source (README)](./class-code/README.md)
+  - [class-index](./class-code/) [source-code](./class-code.md)
 
-### Links Presentation
-- [Links Presentation (Slides)](./links-presentation/presentation/index.html)
+- Presentations
 
-#### Example Code
-- [Example 1](./links-presentation/code/Example1/home.html) ([Source](./links-presentation/code/Example1/README.md))
-- [Example 2](./links-presentation/code/Example2/index.html) ([Source](./links-presentation/code/Example2/README.md))
-- [Example 3](./links-presentation/code/Example3/index.html) ([Source](./links-presentation/code/Example3/README.md))
-- [Example 4](./links-presentation/code/Example4/index.html) ([Source](./links-presentation/code/Example4/README.md))
-- [Example 5](./links-presentation/code/Example5/index.html) ([Source](./links-presentation/code/Example5/README.md))
+  - [Links-presentation](./links-presentation//presentation/index.html)
 
----
+  - [source](./links-presentation/code/Example1/README.md) [example-preview-1](./links-presentation/code/Example1/home.html)
+  - [source](./links-presentation/code/Example2/README.md) [example-preview-2](./links-presentation/code/Example2/index.html)
+  - [source](./links-presentation/code/Example3/README.md) [example-preview-3](./links-presentation/code/Example3/index.html)
+  - [source](./links-presentation/code/Example4/README.md) [example-preview-4](./links-presentation/code/Example4/index.html)
+  - [source](./links-presentation/code/Example5/README.md) [example-preview-5](./links-presentation/code/Example5/index.html)
 
-## Navigation
+## Contact
 
-- [⬅️ Previous: 02](../02/README.md)
-- [⬆️ Back to HTML-CSS Home](../README.md)
+- Trainer: jamandilovski@gmail.com
