@@ -1,5 +1,5 @@
 # 🚀 Introduction to Web Development – Session 5
-Trainer: [Name] | Contact: [email]
+Trainer: Trajan Stevkovski | Contact: trajanstevkovski@gmail.com
 
 ---
 
