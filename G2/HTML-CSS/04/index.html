@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Git Basic Commands for Beginners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f7f9fa;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #24292e;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      main {
+        max-width: 700px;
+        margin: 30px auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        padding: 30px;
+      }
+      h1 {
+        margin-top: 0;
+      }
+      section {
+        margin-bottom: 30px;
+      }
+      code {
+        background: #f3f3f3;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 1.05em;
+      }
+      .command-title {
+        color: #0366d6;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Git Basic Commands</h1>
+      <p>Simple explanations for complete beginners</p>
+    </header>
+    <main>
+      <section>
+        <h2 class="command-title">
+          <code>git clone &lt;repository-url&gt;</code>
+        </h2>
+        <p>
+          This command copies (downloads) a remote repository from the internet
+          to your computer. Use it when you want to start working on a project
+          that already exists online.
+        </p>
+      </section>
+      <section>
+        <h2 class="command-title"><code>git add .</code></h2>
+        <h2>or</h2>
+        <h2 class="command-title"><code>git add &lt;file&gt;</code></h2>
+        <p>
+          This command tells Git to start tracking changes to a file. Use it
+          after you make changes and want to include those changes in your next
+          snapshot (commit).
+        </p>
+      </section>
+      <section>
+        <h2 class="command-title"><code>git commit -m "your message"</code></h2>
+        <p>
+          This command saves your changes in Git with a short message describing
+          what you did. Think of it as taking a snapshot of your project at this
+          moment.
+        </p>
+      </section>
+      <section>
+        <h2 class="command-title"><code>git push</code></h2>
+        <p>
+          This command uploads your saved changes (commits) from your computer
+          to the remote repository (like GitHub). Use it to share your work with
+          others or back it up online.
+        </p>
+      </section>
+      <section>
+        <h2 class="command-title"><code>git pull</code></h2>
+        <p>
+          This command downloads the latest changes from the remote repository
+          to your computer. Use it to make sure you have the most up-to-date
+          version of the project.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
