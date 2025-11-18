@@ -8,6 +8,6 @@ You will get to know HTML and CSS as a ground floor for building web application
 ## Navigation 🧭
 
 * Groups
-  * [G1](/G1/)
+  * [G1](./G1/)
   * [G2](./G2/)
   * [G3](/G3/)
