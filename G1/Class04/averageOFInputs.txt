@@ -1,0 +1,20 @@
+first try
+num = input();
+num1 = input();
+num2 = input();
+
+result = (num + num1 + num2) / 3;
+print result;
+
+second try
+
+const maxCounter = 1000;
+suma = 0;
+
+for counter = 0; counter < maxCounter; counter = counter + 1 do
+    number = input();
+    suma = suma + number;
+end
+
+average = suma / maxCounter;
+print average;

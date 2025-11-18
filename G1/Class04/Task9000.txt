@@ -1,0 +1,11 @@
+coins = [1, 5, 10, 20, 50];
+
+amount = input();
+
+numberOfCoins = 0;
+
+for i = coins.length - 1; i >= 0; i--
+    numberOfCoins = amount / coins[i]; 375 -> 7 (50$)
+    amount = amount % coins[i];
+
+print Coins needed: numberOfCoins;
