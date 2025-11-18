@@ -10,11 +10,11 @@
   * Class 03
     * [Pseudo code and programing methodologies](./Class03/)
   * Class 04
-  * [Class assignemets (Tasks)](./Class04/)
-  * [Html Introdoction](./Class04/presentation)
+    * [Class assignemets (Tasks)](./Class04/)
+    * [Html Introdoction](./Class04/presentation)
 
-## Code can be found in the github repository 
-    * [Code link](https://github.com/aa-codecademy/mkwd14-01-basicwebdev-and-ai/tree/main/G1)
+
+  * The repository for the example code [Link](https://github.com/aa-codecademy/mkwd14-01-basicwebdev-and-ai/tree/main/G1)
 
 ## Contact
 
