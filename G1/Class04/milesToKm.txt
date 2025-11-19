@@ -1,0 +1,18 @@
+konstanta miles = 1.6
+konstanta km = 0.6
+
+print What kind of conversion do you need
+print Enter one for km to miles enter 2 for miles to km
+
+choise = input();
+
+if choise = '1'
+    value = input();
+    calculation = value * miles;
+    print calculation;
+else if choise = '2'
+    value = input();
+    calculation = value * km;
+    print calculation;
+else
+    then error;

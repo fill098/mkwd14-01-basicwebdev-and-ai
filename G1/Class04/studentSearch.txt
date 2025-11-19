@@ -1,0 +1,15 @@
+students = [bob, jill, sparky];
+
+print Enter the name of the student to search for;
+studentName = input();
+found = false;
+for i = 0; i < students.length; i++
+    if students[i] = studentName;
+        found = true;
+        print Student found: + students[i];
+        break;
+    end
+end for
+
+if found = false
+    print Student not found;
