@@ -1,0 +1,7 @@
+body{font-family:Segoe UI, Roboto, Arial, sans-serif; line-height:1.5; color:#222; background:#f7f7f7;}
+header{background:#fff;padding:16px;border-bottom:1px solid #e6e6e6;display:flex;align-items:center;gap:16px}
+nav ul{list-style:none;display:flex;gap:12px}
+nav a{text-decoration:none;color:#0366d6}
+.hero{padding:48px 16px;text-align:center}
+.profile{width:120px;height:120px;border-radius:999px;background:#eee;display:inline-block}
+.projects-preview{padding:24px 16px}
