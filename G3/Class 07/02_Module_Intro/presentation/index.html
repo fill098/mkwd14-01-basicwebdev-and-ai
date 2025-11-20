@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HTML and CSS</title>
+
+		<meta name="description" content="HTML and CSS Presentation">
+		<meta name="author" content="QA">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'assets/text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/css/print/pdf.css' : 'assets/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<section>
+
+				<!-- Slide 1 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h1>HTML5 &amp; CSS3</h1>
+					<h3>Introduction</h3>
+					<p>
+						<small>Trainer: <a href="#">Tijana Stojanovska</a> - stojanovska_tijana@outlook.com</small></br>
+						<div style="background-color: white; display: inline-flex; justify-content: center; padding: 10px; width: 300px;">
+							<img src="./assets/img/lg.png" alt="logo" style="border:none; box-shadow:none; padding: 0; margin: 0; display: inline; background-color: transparent;" />
+						</div>
+
+					</p>
+					<small style="font-size: 15px;">© 2025/2026 Avenga Academy</small>
+
+				</section>
+
+
+				<!-- Slide 2 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Course overview</h2>
+					<ul>
+						<li>This course is divided into three parts</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 3 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Part 1</h2>
+					<ul>
+						<li>Introduction to HTML (HyperText Markup Language)</li>
+						<li>HTML text layout tags</li>
+						<li>Understanding Hyperlinks</li>
+						<li>Website Images</li>
+						<li>Tables and Table Data</li>
+						<li>Forms</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 4 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Part 2</h2>
+					<ul>
+						<li>Introduction to CSS (Cascade StyleSheet)</li>
+						<li>Formating Fonts and Texts with CSS</li>
+						<li>CSS and Colors assignments</li>
+						<li>Formating Hyperlinks</li>
+						<li>Box Model - Paddings, Margins and Borders</li>
+						<li>CSS Positioning</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 5 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Part 3</h2>
+					<ul>
+						<li>Page Layout Strategies</li>
+						<li>Site Structure and Navigation</li>
+						<li>Validation</li>
+						<li>Responsive Design and Media Queries</li>
+						<li>CSS Frameworks - Bootstrap</li>
+						<li>CSS preprocessors - SASS</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 6 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Tools you need for this course</h2>
+					<ul>
+						<li>Text Editor (Notepad, Notapad++, Brackets, SublimeText, VS Code, Atom.....)</li>
+						<li>Web Browser (Firefox, Chrome, Edge....)</li>
+						<li>AI assistant (Chat GPT, Github Copilot....)</li>
+						<li>Yourself on place! :)</li>
+						<li>We don't need web servers yet!</li>	
+					</ul>
+				</section>
+
+				<section style="text-align: left; font-size: 0.7em;" data-background="#fff">
+					<h2>Attention</h2>
+					<p>
+						We will learn how to use <strong>AI tools</strong> as <strong>assistants</strong> — not as replacements for your learning.  
+						<br><br>
+						AI can help you <em>understand concepts</em>, <em>get explanations</em>, and <em>check your thinking</em>, but it should never do the full work for you.  
+						<br><br>
+						Think of it like learning to swim with a float — it helps you stay up, but <strong>you still need to learn how to move</strong>.  
+					</p>
+					<p><strong>Use AI to:</strong></p>
+					<ul>
+						<li>Ask questions and clarify topics</li>
+						<li>Explore different ways to solve a problem</li>
+						<li>Check or improve your own solutions</li>
+						<li>Generate boilerplate or skeleton code to start from</li>
+					</ul>
+					<p><strong>Do not use AI to:</strong></p>
+					<ul>
+						<li>Copy answers without understanding them</li>
+						<li>Skip the process of learning or problem solving</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 7 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>HTML</h1>
+					<h3><span style="color:#111;">H</span>yper<span style="color:#111;"> T</span>ext <span style="color:#111;">M</span>arkup <span style="color:#111;">L</span>anguage</h3>
+				</section>
+
+
+				<!-- Slide 8 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Introduction</h2>
+					<ul>
+						<li><b>Markup language</b> is a system for annotating a document in a way that is syntactically distinguishable from the text,
+							 meaning when the document is processed for display, the markup language is not shown, and is only used to format the text</li>
+						<li><b>Markup language</b> is a language where you add instructions to tell the computer how to display the text enclosed by those instructions</li>
+						<li><b>HTML</b> is a markup language</li>
+					</ul>
+				</section>
+
+
+				<!-- Slide 9 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Example</h2>
+					<p><strong>&lt;please do this&gt;</strong> Hello HTML coders <strong>&lt; &#47;end please do this &gt;</strong></p>
+				</section>
+
+
+
+				<!-- Slide 10 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>So...</h2>
+					<ul>
+						<li>In the introduction part, we will get organized for all future exercises with HTML and CSS.</li>
+						<li>We will also learn the basic HTML document structure and basic understanding of HTML.</li>
+						<li>We will use AI assistance in the learning process and we will learn how AI can help if we know how to navigate it.</li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 13 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>How websites are created</h1>
+				</section>
+
+
+
+
+				<!-- Slide 14 -->
+				<section style="text-align: left;" data-background="#fff">
+					<ul>
+						<li>All websites use <strong>HTML and CSS</strong></li>
+						<li>Content management systems (CMS), Blogs, E-commerce platforms and more complex web applications today often use a few more technologies into the mix.</li>
+						<li>These technologies are usually used to produce/generate <strong>HTML and CSS</strong> that is then sent to the browser</li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 15 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>What you see</h2>
+					<ul>
+						<li>When you are looking at a website, it is most likely that your browser will be receiving <strong>HTML and CSS</strong> from  the web server that hosts the site</li>
+						<li>The web browser intreprets the <strong>HTML and CSS</strong> code to create the page that you see</li>
+						<li>Most websites also include extra multimedia content on top of text such as images, audio, video or animations</li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 16 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML5 &amp; CSS3</h2>
+					<ul>
+						<li>Since the web first created there have been several versions of the <strong>HTML and CSS</strong> - each intended to be an improvement on the previous version</li>
+						<li>The latest versions are <b>HTML5</b> &amp; <b>CSS3</b></li>
+						<li>Because HTML5 &amp; CSS3 build on previous versions of these languages, learning these mean you will also be able to understand the earlier versions of them</li>
+					</ul>
+				</section>
+
+
+<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Let's dive into it</h1>
+					<p>
+						Here we start exploring HTML — the language that builds every web page.
+						<br><br>
+						Instead of just reading slides, we will <strong>use AI to discover HTML concepts interactively</strong>.  
+						We'll begin by prompting AI to explain what HTML is, how it's structured, and what its main building blocks are.
+						<br><br>
+						Then, we'll compare AI's responses with the official concepts on the next slides.
+					</p>
+				</section>
+
+				<!-- Slide 17a: AI Exploration - HTML Elements -->
+				
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🤖 AI Exploration: HTML Elements</h2>
+				  <p><strong>Prompt:</strong> "I am a beginner. Can you explain what an HTML element is, what tags are, and give a simple example?"</p>
+				  <p><strong>Explanation:</strong> This prompt gives AI <em>context</em> (“I am a beginner”) so the explanation is simple and clear.  
+				  You’re also asking for an <em>example</em>, which helps connect the concept to real code.</p>
+				</section>
+				
+				<!-- Slide 17b: AI Exploration - Minimal HTML Skeleton -->
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🤖 AI Exploration: Minimal HTML Skeleton</h2>
+				  <p><strong>Prompt:</strong> "As a beginner, can you give me a minimal HTML page skeleton for a web page? Don't explain the tags yet, just show the structure."</p>
+				  <p><strong>Explanation:</strong> This is a <em>focused prompt</em>. You tell AI what not to do (“don’t explain yet”) — this keeps the output short and clean.  
+				  It helps you visualize the structure first, before learning the meaning of each tag.</p>
+				</section>
+				
+				<!-- Slide 17c: AI Exploration - Understanding Tags -->
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🤖 AI Exploration: Understanding Tags</h2>
+				  <p><strong>Follow-up Prompts:</strong></p>
+				  <ul>
+					<li>"What is the purpose of &lt;!DOCTYPE&gt; in this skeleton?"</li>
+					<li>"What does the &lt;html&gt; tag do?"</li>
+					<li>"Why do we have &lt;head&gt; and &lt;body&gt;?"</li>
+					<li>"What is the function of the &lt;title&gt; tag inside the head?"</li>
+				  </ul>
+				  <p><strong>Explanation:</strong> These are <em>iterative prompts</em> — each focuses on one part of the skeleton.  
+				  This is how you explore deeply: by asking one question at a time instead of everything at once.</p>
+				</section>
+				
+				<!-- Slide 17d: AI Exploration - Attributes -->
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🤖 AI Exploration: HTML Attributes</h2>
+				  <p><strong>Prompt:</strong> "Explain what HTML attributes are in simple terms and give two examples."</p>
+				  <p><strong>Explanation:</strong> You use <em>constraints</em> (“in simple terms”) and <em>examples</em> to make AI adapt to your learning level.  
+				  Attributes are one of the most abstract concepts — this helps AI explain them with clarity and relevance.</p>
+				</section>
+				
+				<!-- Slide 17e: AI Exploration - Comments -->
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🤖 AI Exploration: HTML Comments</h2>
+				  <p><strong>Prompt:</strong> "Explain what HTML comments are, why they are used, and give an example."</p>
+				  <p><strong>Explanation:</strong> This is a <em>structured prompt</em> — it asks for <strong>definition</strong>, <strong>purpose</strong>, and <strong>example</strong>.  
+				  It ensures the answer covers not only what something is, but also <em>why</em> and <em>how</em> it’s used.</p>
+				</section>
+<section style="text-align: left;" data-background="#fff">
+					<h2>Let's have it written down.</h2>
+				</section>
+
+				<!-- Slide 17 -->
+				<section style="text-align: left;" data-transition="slide" data-background="#007ac9" data-background-transition="slide">
+					<h1>Structure</h1>
+				</section>
+
+
+
+				<!-- Slide 18 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Elements</h2>
+					<ul>
+						<li>An HTML document is comprised of <b>elements</b>, which are created using <b>tags.</b></li>
+						<li>An element consists of an <b>opening tag</b>, <b>content</b> and a <b>closing tag</b></li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 19 -->
+				<section data-background="assets/img/tags.png">
+						<!-- Here the image is showing in the background of the slide -->
+				</section>
+
+
+
+				<!-- Slide 20 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Element Attributes</h2>
+					<ul>
+						<li><b>Attributes</b> tell us more about the elements</li>
+						<li><b>Attributes</b> define an element's properties</li>
+						<li>Consider attributes as adjectives.</li>
+						<li>Attributes always go in <b>name/value</b> pairs</li>
+						<li>Attributes provide browsers further instructions on how to render the HTML elements</li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 21 -->
+				<section data-background="assets/img/attributes.png">
+						<!-- Here the image is showing in the background of the slide -->
+				</section>
+
+
+
+
+				<!-- Slide 22 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Document Basic Structure</h2>
+					<ul>
+						<li>The first element in an HTML document should be the Document Type Definition (DTD)</li>
+						<li>In <strong>HTML5</strong> we don't specify the DTD. It's standardized to just writing the following line and the browser understands that we're writing our markup in <strong>HTML5</strong></li>
+					</ul>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;!DOCTYPE HTML&gt;
+					</code></pre></p>
+				</section>
+
+
+
+				<!-- Slide 23 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Basic Structure - Anatomy</h2>
+					<ul>
+						<li>Main HTML Document structure contains the following elements:</li>
+						<li>&lt;html&gt;
+							<ul>
+								<li>&lt;head&gt;&lt;/head&gt;</li>
+								<li>&lt;body&gt;&lt;/body&gt;</li>
+							</ul>
+							&lt;/html&gt;
+						</li>
+					</ul>
+				</section>
+
+
+
+				<!-- Slide 24 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Basic HTML5 Structure</h2>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt; Page title here &lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	&nbsp;
+	&lt;/body&gt;
+&lt;/html&gt;
+					</code></pre></p>
+				</section>
+
+
+
+
+				<!-- Slide 25 -->
+				<section data-background="assets/img/htmlStructureBig.png">
+					<!-- Here the image is showing in the background of the slide -->
+				</section>
+
+
+
+
+				<!-- Slide 26 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Comments</h2>
+					<ul>
+						<li><b>HTML Comments</b> will help you better describe what you create in your HTML Markup</li>
+						<li><b>HTML Comments</b> are useful for you, other team members or those who read the HTML Documents</li>
+						<li><b>HTML Comments</b> can be written using the following way:</li>
+					</ul>
+					<p><pre><code class="hljs" data-trim contenteditable>
+&lt;!-- The comment goes here --&gt;
+					</code></pre></p>
+				</section>
+
+
+
+
+				<!-- Slide 27 -->
+				<section style="text-align: left;" data-background="#fff">
+					
+					<h2>Let's Try This in a Text Editor</h2>
+					<p>
+					  Now that we understand the basic HTML structure, let's create it in <strong>Visual Studio Code</strong>.  
+					  <br><br>
+					  You’ll also see how <strong>AI tools</strong> like GitHub Copilot or ChatGPT can assist while you type.
+					</p>
+				  </section>
+
+
+				<!-- Slide 28 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>Create an HTML File</h2>
+					<ul>
+						<li>Open <b>Visual Studio Code</b> on your computer</li>
+						<li>Create a folder for your project</li>
+						<li>Open that folder inside <b>Visual Studio Code</b></li>
+						<li>Inside that folder create a <b>new file</b> and save it using a file extension <b>.html</b> after the document's name</li>
+						<li>Inside the new HTML document write the basic HTML structure</li>
+					</ul>
+				</section>
+				
+				<section style="text-align: left; font-size: 0.7em;" data-background="#f8f8f8">
+				  <h2>💡 AI Assistance: Copilot or ChatGPT</h2>
+				  <p><strong>Try this:</strong></p>
+				  <ul>
+					<li>Start typing <code>&lt;!DOCTYPE html&gt;</code> — notice how <b>Copilot</b> suggests the rest of the HTML structure automatically.</li>
+					<li>Ask <b>ChatGPT</b> (or Copilot Chat) in VS Code:<br>
+					  <em>"Can you generate a minimal HTML5 page structure with comments for each part?"</em>
+					</li>
+				  </ul>
+				  <p><strong>What happens:</strong></p>
+				  <ul>
+					<li>Copilot predicts the most common HTML pattern.</li>
+					<li>ChatGPT explains <em>why</em> each tag exists — helping you understand, not just copy.</li>
+				  </ul>
+				  <p><strong>Note:</strong> Use AI to assist and explain, <em>not to skip</em> learning how each part works.</p>
+				</section>
+				
+				<!-- Slide 30: AI Reflection -->
+				<section style="text-align: left;" data-background="#f8f8f8">
+				  <h2>🧭 Reflection: Using AI Wisely</h2>
+				  <p>When using Copilot or ChatGPT, think like this:</p>
+				  <ul>
+					<li>💬 <strong>Prompt clearly:</strong> “Create a minimal HTML5 structure with comments.”</li>
+					<li>👀 <strong>Observe suggestions:</strong> Does Copilot give you a full page? Can you explain what each tag does?</li>
+					<li>🧠 <strong>Assess the output:</strong> Is the code correct? Can you identify every tag?</li>
+				  </ul>
+				  <p>This way, AI becomes your <strong>assistant</strong>, not your <strong>autopilot</strong>.</p>
+				</section>
+
+
+				<!-- Slide 29 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h2>HTML Elements</h2>
+					<ul>
+						<li>*HTML elements reference: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a></li>
+					</ul>
+				</section>
+
+
+
+
+				<!-- Slide 30 -->
+				<section style="text-align: left;" data-background="#fff">
+					<h1>Thank you!</h1>
+					<p>
+						<a href="#">Questions?</a> <br>
+					</p>
+				</section>
+
+			</section>
+
+			</div>
+
+		</div>
+
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				 // Transition speed
+    			transitionSpeed: 'default', // default/fast/slow
+
+				 // Enable slide navigation via mouse wheel
+    			mouseWheel: true,
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'assets/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
