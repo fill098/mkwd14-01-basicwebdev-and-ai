@@ -15,6 +15,8 @@
   * Class 05
     * [Html structure](./Class05/HtmlStructure/)
     * [Text tags and lists](./Class05/TextTagsAndLists/)
+  * Class 06
+    * [Links](./Class06/Links/)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 
