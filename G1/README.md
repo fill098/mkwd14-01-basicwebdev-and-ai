@@ -22,6 +22,9 @@
 
   * The repository for the example code [Link](https://github.com/aa-codecademy/mkwd14-01-basicwebdev-and-ai/tree/main/G1)
 
+* Homework
+  * [Task00](./Homeworks/Task00/)
+
 ## Contact
 
 * Trainer: trajanstevkovski@gmail.com
