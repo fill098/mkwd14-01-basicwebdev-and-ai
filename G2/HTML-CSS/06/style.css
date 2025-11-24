@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background: #eef0f2;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.page-container {
+  background: white;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  width: 800px;
+}
+
+/* top & bottom bars */
+.top-bar,
+.bottom-bar {
+  height: 40px;
+  background: #555;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.bottom-bar {
+  margin-top: 20px;
+}
+
+/* common block box */
+.box {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* individual blocks */
+.company-info {
+  background: #5cc6d4;
+}
+
+.site-nav {
+  background: #a28af0;
+}
+
+.content-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background: #96d48e;
+  flex: 2;
+}
+
+.additional-info {
+  background: #e4a640;
+  flex: 1;
+}
+
+.contact-info {
+  background: #ccc;
+  color: #333;
+}
