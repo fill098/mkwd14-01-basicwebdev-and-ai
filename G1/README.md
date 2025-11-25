@@ -12,11 +12,28 @@
   * Class 04
     * [Class assignemets (Tasks)](./Class04/)
     * [Html Introdoction](./Class04/presentation)
-
+  * Class 05
+    * [Html structure](./Class05/HtmlStructure/)
+    * [Text tags and lists](./Class05/TextTagsAndLists/)
+  * Class 06
+    * [Links](./Class06/Links/)
+  * Class 07
+    * [Images](./Class07/Images/)
+    * [Tables](./Class07/Tables//)
+    * [Forms](./Class07/Forms//)
   * Tools
-    * [VsCode and Github)](./Tools/VSCode and Github/)
+    * [VsCode and Github](./Tools/VSCode and Github/)
 
   * The repository for the example code [Link](https://github.com/aa-codecademy/mkwd14-01-basicwebdev-and-ai/tree/main/G1)
+
+* Homework
+  * [Task00](./Homeworks/Task00/)
+  * [Task01](./Homeworks/Task01/)
+
+* Usefull links
+  * [Github desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
+  * [Mdn](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 
 ## Contact
 
