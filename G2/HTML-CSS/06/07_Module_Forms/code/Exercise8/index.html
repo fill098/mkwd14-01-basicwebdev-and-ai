@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>QA Academy Form</title>
+	</head>
+	<body>
+		<form method="" action="">
+			<h1>QA form</h1>
+
+			<fieldset>
+				<legend>Personal Info</legend>
+				<label for="name">Name</label>
+				<input
+					type="text"
+					name="name"
+					id="name"
+					placeholder="Enter name..."
+					required
+					maxlength="15" />
+
+				<br /><br />
+
+				<label for="age">Age</label>
+				<input
+					type="number"
+					name="age"
+					id="age"
+					placeholder="Enter age..."
+					required
+					min="16"
+					max="99" />
+
+				<br /><br />
+				<label for="about-me">About me</label>
+				<textarea
+					id="about-me"
+					name="about-me"
+					cols="20"
+					rows="5"
+					placeholder="Something about yourself"
+					requiredd></textarea>
+
+				<br /><br />
+
+				<label for="date-of-birth">Date of birth</label>
+				<input type="date" name="date-of-birth" id="date-of-birth" />
+
+				<br /><br />
+
+				<label for="phone">Phone Number</label>
+				<input type="tel" name="phone" id="phone" placeholder="070223305" />
+
+				<br /><br />
+
+				<label for="photo">Photo</label>
+				<input type="file" name="photo" id="photo" />
+			</fieldset>
+
+			<br /><br />
+
+			<fieldset>
+				<legend>Login Info</legend>
+				<label for="email">Email</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					placeholder="Enter email..."
+					required />
+
+				<br /><br />
+
+				<label for="password">Password</label>
+				<input
+					type="password"
+					name="password"
+					id="password"
+					placeholder="Enter password..."
+					required />
+
+				<br /><br />
+				<label for="github">Github URL</label>
+				<input
+					type="url"
+					name="github"
+					id="github"
+					placeholder="https://github.com/your_profile"
+					required />
+			</fieldset>
+
+			<br /><br />
+
+			<fieldset>
+				<legend>Academy info</legend>
+				<p>Stream</p>
+				<input type="radio" name="stream" id="js" /><label for="js"
+					>JavaScript</label
+				>
+				<input type="radio" name="stream" id="net" /><label for="net"
+					>.Net</label
+				>
+
+				<p>Academy</p>
+				<input type="radio" name="academy" id="web-development" /><label
+					for="web-development"
+					>Web Development</label
+				>
+				<input type="radio" name="academy" id="design" /><label for="design"
+					>Design</label
+				>
+				<input type="radio" name="academy" id="qa" /><label for="qa">Qa</label>
+
+				<br /><br />
+
+				<label for="group">Group</label>
+				<select id="group" name="group" required>
+					<option value="" selected disabled>Please select group...</option>
+					<option value="g1">G1</option>
+					<option value="g2">G2</option>
+					<option value="g3">G3</option>
+					<option value="g4">G4</option>
+					<option value="g5">G5</option>
+				</select>
+
+				<br /><br />
+
+				<label for="subjects">Subjects</label>
+				<select name="subjects" id="subjects" required multiple>
+					<option value="html-css">HTML & CSS</option>
+					<option value="basic-js">Basic JS</option>
+					<option value="adv-js">Advanced JS</option>
+				</select>
+
+				<p>Language</p>
+				<input type="radio" name="language" id="en" /><label for="en"
+					>English</label
+				>
+				<input type="radio" name="language" id="mk" /><label for="mk"
+					>Macedonian</label
+				>
+				<input type="radio" name="language" id="srb" /><label for="srb"
+					>Serbian</label
+				>
+
+				<p>Attending classes at:</p>
+				<input type="radio" name="attendance" id="online" /><label for="online"
+					>Online</label
+				>
+				<input type="radio" name="attendance" id="skopje" /><label for="skopje"
+					>Skopje</label
+				>
+				<input type="radio" name="attendance" id="ohrid" /><label for="ohrid"
+					>Ohrid</label
+				>
+				<input type="radio" name="attendance" id="nish" /><label for="nish"
+					>Nish</label
+				>
+			</fieldset>
+
+			<br /><br />
+
+			<input type="checkbox" name="agree" id="agree" />
+			<label for="agree">I confirm the data is valid</label>
+
+			<br /><br />
+
+			<button type="reset">Cancel</button>
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
