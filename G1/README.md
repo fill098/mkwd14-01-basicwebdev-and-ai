@@ -28,6 +28,7 @@
 
 * Homework
   * [Task00](./Homeworks/Task00/)
+  * [Task01](./Homeworks/Task01/)
 
 * Usefull links
   * [Github desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
