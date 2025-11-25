@@ -17,6 +17,10 @@
     * [Text tags and lists](./Class05/TextTagsAndLists/)
   * Class 06
     * [Links](./Class06/Links/)
+  * Class 07
+    * [Images](./Class07/Images/)
+    * [Tables](./Class07/Tables//)
+    * [Forms](./Class07/Forms//)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 
@@ -24,6 +28,11 @@
 
 * Homework
   * [Task00](./Homeworks/Task00/)
+
+* Usefull links
+  * [Github desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
+  * [Mdn](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 
 ## Contact
 
