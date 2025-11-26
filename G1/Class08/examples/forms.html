@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- single choice dropdown -->
+        <label for="devices">What device do you listen to music on?</label>
+        <select name="devices" id="devices">
+            <option selected disabled>Select an option</option>
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+        <br>
+        <!-- multi choise list -->
+         <label for="instruments">Do you play any of the following instruments?</label>
+         <select name="instruments" id="instruments"
+            multiple="multiple" size="1">
+            <option value="guitar" selected>Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard">Keyboard</option>
+            <option value="bass" selected disabled>Bass</option>
+        </select>
+        <br>
+        <label for="user-song">Upload your song in mp3 format:</label>
+        <input type="file" name="user-song" id="user-song" />
+
+    </form>
+    <hr>
+    <form action="" method="post">
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" value="Please enter your email here" required>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <hr>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset form">        
+    </form>
+<hr>
+    <form>
+        <input type="button" value="Im a button">
+        <button type="button">
+            <img src="images/icon-plus.svg" alt="plus-sign"
+		width="10" /> Im a button
+        </button>
+
+        <input type="hidden" name="hidden" id="hidden" value="12345">
+        <hr>
+        <fieldset>
+            <legend>Contact information:</legend>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email">
+            <label for="mabile">Mobile: </label>
+            <input type="text" name="mobile" id="mobile">
+            <label for="address">Address: </label>
+            <input type="text" name="address" id="address">
+        </fieldset>
+    </form>
+</body>
+</html>
