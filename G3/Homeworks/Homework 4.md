@@ -5,4 +5,6 @@ Description: Create a valid HTML5 document that contains a form that represents 
 
 MDN recource: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
-![image](https://github.com/user-attachments/assets/08fd8db2-c98c-4d0a-b295-185d68456de0)
+![Image](https://github.com/user-attachments/assets/4e9b4904-08f1-4ff1-bdd7-0af9b56d3b7b)
+
+![Image](https://github.com/user-attachments/assets/43f3db37-73ce-4052-b594-ee6e39f10cf1)
