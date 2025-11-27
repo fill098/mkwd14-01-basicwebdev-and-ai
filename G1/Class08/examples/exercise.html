@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="Male">
+        <input type="radio" name="gender" value="Female">
+        
+        <label for="continent">Continent</label>
+        <select name="continent" id="continent">
+            <option value="europe">Europe</option>
+            <option value="europe">Asia</option>
+            <option value="europe">Africa</option>
+            <option value="europe">South America</option>
+        </select>        
+
+        <label for="name">Meals</label>
+        <input type="checkbox" name="breakfast" id="breakfast">
+        <input type="checkbox" name="lunch" id="lunch">
+        <input type="checkbox" name="dinner" id="dinner">
+
+        <label for="remark">Remarks</label>
+        <textarea name="remarks" id="remarks" cols="20" rows="4"></textarea>
+
+        <button type="button" id="abc">Click me</button>
+    </form>
+    <script>
+        console.log('Loaded');
+        document.getElementById('abc').on('click', function() {
+            const form = document.getElementById('form');
+            let inputs = form.getElementsByTagName('input');
+            console.log(inputs);
+        })
+        // inputs.map(x => { return { x.name, x.value} })
+    </script>
+</body>
+</html>

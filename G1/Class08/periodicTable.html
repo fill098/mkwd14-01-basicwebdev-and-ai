@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    table {
+        border-collapse: collapse;
+        margin-bottom: 40px;
+    }
+    td {
+        width: 60px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #555;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    /* COLORS */
+    .alkali {background: #ffb3b3;}
+    .alkaline {background: #ffd9b3;}
+    .transition {background: #ffffb3;}
+    .post-transition {background: #d9ffb3;}
+    .metalloid {background: #b3ffd9;}
+    .nonmetal {background: #b3e6ff;}
+    .halogen {background: #d1b3ff;}
+    .noble {background: #ffb3e6;}
+    .lanth {background: #e6e6e6;}
+    .actin {background: #cccccc;}
+
+    /* HOVER INFO */
+    td:hover {
+        position: relative;
+        background: #fff;
+        cursor: pointer;
+    }
+    td:hover::after {
+        content: attr(data-info);
+        position: absolute;
+        top: -5px;
+        left: 65px;
+        white-space: nowrap;
+        padding: 4px 8px;
+        background: #000;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 12px;
+        z-index: 5;
+    }
+</style>
+</head>
+<body>
+
+<!-- ========================================================= -->
+<!-- 1) FULL PERIODIC TABLE WITH COLORS                         -->
+<!-- ========================================================= -->
+
+<h2>1) Full Periodic Table (With Colors)</h2>
+
+<table>
+<tr>
+<td class="nonmetal">H</td>
+<td colspan="16"></td>
+<td class="noble">He</td>
+</tr>
+
+<tr>
+<td class="alkali">Li</td>
+<td class="alkaline">Be</td>
+<td colspan="10"></td>
+<td class="metalloid">B</td>
+<td class="nonmetal">C</td>
+<td class="nonmetal">N</td>
+<td class="nonmetal">O</td>
+<td class="halogen">F</td>
+<td class="noble">Ne</td>
+</tr>
+
+<tr>
+<td class="alkali">Na</td>
+<td class="alkaline">Mg</td>
+<td colspan="10"></td>
+<td class="post-transition">Al</td>
+<td class="metalloid">Si</td>
+<td class="nonmetal">P</td>
+<td class="nonmetal">S</td>
+<td class="halogen">Cl</td>
+<td class="noble">Ar</td>
+</tr>
+
+<tr>
+<td class="alkali">K</td>
+<td class="alkaline">Ca</td>
+<td class="transition">Sc</td>
+<td class="transition">Ti</td>
+<td class="transition">V</td>
+<td class="transition">Cr</td>
+<td class="transition">Mn</td>
+<td class="transition">Fe</td>
+<td class="transition">Co</td>
+<td class="transition">Ni</td>
+<td class="transition">Cu</td>
+<td class="transition">Zn</td>
+<td class="post-transition">Ga</td>
+<td class="metalloid">Ge</td>
+<td class="metalloid">As</td>
+<td class="nonmetal">Se</td>
+<td class="halogen">Br</td>
+<td class="noble">Kr</td>
+</tr>
+
+<tr>
+<td class="alkali">Rb</td>
+<td class="alkaline">Sr</td>
+<td class="transition">Y</td>
+<td class="transition">Zr</td>
+<td class="transition">Nb</td>
+<td class="transition">Mo</td>
+<td class="transition">Tc</td>
+<td class="transition">Ru</td>
+<td class="transition">Rh</td>
+<td class="transition">Pd</td>
+<td class="transition">Ag</td>
+<td class="transition">Cd</td>
+<td class="post-transition">In</td>
+<td class="post-transition">Sn</td>
+<td class="metalloid">Sb</td>
+<td class="metalloid">Te</td>
+<td class="halogen">I</td>
+<td class="noble">Xe</td>
+</tr>
+
+<tr>
+<td class="alkali">Cs</td>
+<td class="alkaline">Ba</td>
+<td class="lanth">La–Lu</td>
+<td class="transition">Hf</td>
+<td class="transition">Ta</td>
+<td class="transition">W</td>
+<td class="transition">Re</td>
+<td class="transition">Os</td>
+<td class="transition">Ir</td>
+<td class="transition">Pt</td>
+<td class="transition">Au</td>
+<td class="transition">Hg</td>
+<td class="post-transition">Tl</td>
+<td class="post-transition">Pb</td>
+<td class="post-transition">Bi</td>
+<td class="post-transition">Po</td>
+<td class="halogen">At</td>
+<td class="noble">Rn</td>
+</tr>
+
+<tr>
+<td class="alkali">Fr</td>
+<td class="alkaline">Ra</td>
+<td class="actin">Ac–Lr</td>
+<td class="transition">Rf</td>
+<td class="transition">Db</td>
+<td class="transition">Sg</td>
+<td class="transition">Bh</td>
+<td class="transition">Hs</td>
+<td class="transition">Mt</td>
+<td class="transition">Ds</td>
+<td class="transition">Rg</td>
+<td class="transition">Cn</td>
+<td class="post-transition">Nh</td>
+<td class="post-transition">Fl</td>
+<td class="post-transition">Mc</td>
+<td class="post-transition">Lv</td>
+<td class="halogen">Ts</td>
+<td class="noble">Og</td>
+</tr>
+</table>
+
+
+<!-- ========================================================= -->
+<!-- 2) FULL PERIODIC TABLE WITH SYMBOLS ONLY                   -->
+<!-- ========================================================= -->
+
+<h2>2) Full Periodic Table (Symbols Only)</h2>
+
+<table>
+<tr>
+<td>H</td><td colspan="16"></td><td>He</td>
+</tr>
+
+<tr>
+<td>Li</td><td>Be</td><td colspan="10"></td><td>B</td><td>C</td><td>N</td><td>O</td><td>F</td><td>Ne</td>
+</tr>
+
+<tr>
+<td>Na</td><td>Mg</td><td colspan="10"></td><td>Al</td><td>Si</td><td>P</td><td>S</td><td>Cl</td><td>Ar</td>
+</tr>
+
+<tr>
+<td>K</td><td>Ca</td><td>Sc</td><td>Ti</td><td>V</td><td>Cr</td><td>Mn</td><td>Fe</td><td>Co</td><td>Ni</td>
+<td>Cu</td><td>Zn</td><td>Ga</td><td>Ge</td><td>As</td><td>Se</td><td>Br</td><td>Kr</td>
+</tr>
+
+<tr>
+<td>Rb</td><td>Sr</td><td>Y</td><td>Zr</td><td>Nb</td><td>Mo</td><td>Tc</td><td>Ru</td><td>Rh</td><td>Pd</td>
+<td>Ag</td><td>Cd</td><td>In</td><td>Sn</td><td>Sb</td><td>Te</td><td>I</td><td>Xe</td>
+</tr>
+
+<tr>
+<td>Cs</td><td>Ba</td><td>La–Lu</td><td>Hf</td><td>Ta</td><td>W</td><td>Re</td><td>Os</td><td>Ir</td><td>Pt</td>
+<td>Au</td><td>Hg</td><td>Tl</td><td>Pb</td><td>Bi</td><td>Po</td><td>At</td><td>Rn</td>
+</tr>
+
+<tr>
+<td>Fr</td><td>Ra</td><td>Ac–Lr</td><td>Rf</td><td>Db</td><td>Sg</td><td>Bh</td><td>Hs</td><td>Mt</td><td>Ds</td>
+<td>Rg</td><td>Cn</td><td>Nh</td><td>Fl</td><td>Mc</td><td>Lv</td><td>Ts</td><td>Og</td>
+</tr>
+</table>
+
+
+<!-- ========================================================= -->
+<!-- 3) FULL PERIODIC TABLE WITH HOVER INFO                    -->
+<!-- ========================================================= -->
+
+<h2>3) Full Periodic Table (Hover Info)</h2>
+
+<table>
+
+<tr>
+<td data-info="Hydrogen (1)">H</td>
+<td colspan="16"></td>
+<td data-info="Helium (2)">He</td>
+</tr>
+
+<tr>
+<td data-info="Lithium (3)">Li</td>
+<td data-info="Beryllium (4)">Be</td>
+<td colspan="10"></td>
+<td data-info="Boron (5)">B</td>
+<td data-info="Carbon (6)">C</td>
+<td data-info="Nitrogen (7)">N</td>
+<td data-info="Oxygen (8)">O</td>
+<td data-info="Fluorine (9)">F</td>
+<td data-info="Neon (10)">Ne</td>
+</tr>
+
+<tr>
+<td data-info="Sodium (11)">Na</td>
+<td data-info="Magnesium (12)">Mg</td>
+<td colspan="10"></td>
+<td data-info="Aluminium (13)">Al</td>
+<td data-info="Silicon (14)">Si</td>
+<td data-info="Phosphorus (15)">P</td>
+<td data-info="Sulfur (16)">S</td>
+<td data-info="Chlorine (17)">Cl</td>
+<td data-info="Argon (18)">Ar</td>
+</tr>
+
+<tr>
+<td data-info="Potassium (19)">K</td>
+<td data-info="Calcium (20)">Ca</td>
+<td data-info="Scandium (21)">Sc</td>
+<td data-info="Titanium (22)">Ti</td>
+<td data-info="Vanadium (23)">V</td>
+<td data-info="Chromium (24)">Cr</td>
+<td data-info="Manganese (25)">Mn</td>
+<td data-info="Iron (26)">Fe</td>
+<td data-info="Cobalt (27)">Co</td>
+<td data-info="Nickel (28)">Ni</td>
+<td data-info="Copper (29)">Cu</td>
+<td data-info="Zinc (30)">Zn</td>
+<td data-info="Gallium (31)">Ga</td>
+<td data-info="Germanium (32)">Ge</td>
+<td data-info="Arsenic (33)">As</td>
+<td data-info="Selenium (34)">Se</td>
+<td data-info="Bromine (35)">Br</td>
+<td data-info="Krypton (36)">Kr</td>
+</tr>
+
+<tr>
+<td data-info="Rubidium (37)">Rb</td>
+<td data-info="Strontium (38)">Sr</td>
+<td data-info="Yttrium (39)">Y</td>
+<td data-info="Zirconium (40)">Zr</td>
+<td data-info="Niobium (41)">Nb</td>
+<td data-info="Molybdenum (42)">Mo</td>
+<td data-info="Technetium (43)">Tc</td>
+<td data-info="Ruthenium (44)">Ru</td>
+<td data-info="Rhodium (45)">Rh</td>
+<td data-info="Palladium (46)">Pd</td>
+<td data-info="Silver (47)">Ag</td>
+<td data-info="Cadmium (48)">Cd</td>
+<td data-info="Indium (49)">In</td>
+<td data-info="Tin (50)">Sn</td>
+<td data-info="Antimony (51)">Sb</td>
+<td data-info="Tellurium (52)">Te</td>
+<td data-info="Iodine (53)">I</td>
+<td data-info="Xenon (54)">Xe</td>
+</tr>
+
+<tr>
+<td data-info="Cesium (55)">Cs</td>
+<td data-info="Barium (56)">Ba</td>
+<td data-info="Lanthanides">La–Lu</td>
+<td data-info="Hafnium (72)">Hf</td>
+<td data-info="Tantalum (73)">Ta</td>
+<td data-info="Tungsten (74)">W</td>
+<td data-info="Rhenium (75)">Re</td>
+<td data-info="Osmium (76)">Os</td>
+<td data-info="Iridium (77)">Ir</td>
+<td data-info="Platinum (78)">Pt</td>
+<td data-info="Gold (79)">Au</td>
+<td data-info="Mercury (80)">Hg</td>
+<td data-info="Thallium (81)">Tl</td>
+<td data-info="Lead (82)">Pb</td>
+<td data-info="Bismuth (83)">Bi</td>
+<td data-info="Polonium (84)">Po</td>
+<td data-info="Astatine (85)">At</td>
+<td data-info="Radon (86)">Rn</td>
+</tr>
+
+<tr>
+<td data-info="Francium (87)">Fr</td>
+<td data-info="Radium (88)">Ra</td>
+<td data-info="Actinides">Ac–Lr</td>
+<td data-info="Rutherfordium (104)">Rf</td>
+<td data-info="Dubnium (105)">Db</td>
+<td data-info="Seaborgium (106)">Sg</td>
+<td data-info="Bohrium (107)">Bh</td>
+<td data-info="Hassium (108)">Hs</td>
+<td data-info="Meitnerium (109)">Mt</td>
+<td data-info="Darmstadtium (110)">Ds</td>
+<td data-info="Roentgenium (111)">Rg</td>
+<td data-info="Copernicium (112)">Cn</td>
+<td data-info="Nihonium (113)">Nh</td>
+<td data-info="Flerovium (114)">Fl</td>
+<td data-info="Moscovium (115)">Mc</td>
+<td data-info="Livermorium (116)">Lv</td>
+<td data-info="Tennessine (117)">Ts</td>
+<td data-info="Oganesson (118)">Og</td>
+</tr>
+
+</table>
+
+</body>
+</html>
