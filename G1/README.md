@@ -21,6 +21,9 @@
     * [Images](./Class07/Images/)
     * [Tables](./Class07/Tables//)
     * [Forms](./Class07/Forms//)
+  * Class08
+    * [Semantic layout](./Class08/SemanticLayout/)
+    * [Audio, Video and iFrame](./Class08/AudioVideoAndMeta/)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 
