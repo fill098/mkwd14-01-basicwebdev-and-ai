@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" cellspacing="5" cellpadding="10">
+        <caption>Code Academy Timetable</caption>
+        <thead>
+            <tr bgcolor="lightblue">
+                <th>Groups</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td bgcolor="lightblue"><b>G1</b></td>
+                <td>HTML&CSS</td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td colspan="2" bgcolor="lightgreen"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightblue"><b>G2</b></td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td colspan="3" bgcolor="lightgreen"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightblue"><b>G3</b></td>
+                <td>HTML&CSS</td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td bgcolor="lightgreen"></td>
+                <td>HTML&CSS</td>
+                <td colspan="2" bgcolor="lightgreen"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightblue"><b>G4</b></td>
+                <td rowspan="3">HTML&CSS</td>
+                <td rowspan="3" bgcolor="lightgreen"></td>
+                <td rowspan="3">HTML&CSS</td>
+                <td rowspan="3" bgcolor="lightgreen"></td>
+                <td rowspan="3">HTML&CSS</td>
+                <td rowspan="3" colspan="2" bgcolor="lightgreen"></td>
+            </tr>
+            <tr>
+                <!-- we don't need td elements here, because we already have them with the rowspan in the previous row -->
+                <td bgcolor="lightblue"><b>G5</b></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightblue"><b>G6</b></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption>Calendar</caption>
+        <colgroup>
+            <col bgcolor="aqua">
+            <col bgcolor="lightgrey">
+            <col bgcolor="lightgreen">
+            <col bgcolor="lightyellow">
+            <!-- <col bgcolor="lightblue"> -->
+        </colgroup>
+        <thead>
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <!-- 9am -->
+                <td colspan="2">Math</td>
+                <!-- 10am -->
+                <!-- <td></td> We don't need a cell here, we have colspan -->
+                <!-- 11am -->
+                <td rowspan="2">Art</td>
+                <!-- 12am -->
+                <td bgcolor="red">Geography</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Math</td>
+                <td>Gym</td>
+                <!-- <td></td> We don't need a td here, we have rowspan from Monday - Art -->
+                <td rowspan="2">Biology</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td colspan="3">Gym</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Text inputs</legend>
+            <h3>-------Text input--------</h3>
+            <label for="user_name">Username:</label>
+            <input type="text" name="username" id="user_name" required placeholder="Enter a username" />
+
+            <h3>-------Password--------</h3>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass" />
+
+            <h3>-------Text area--------</h3>
+            <label for="comment">Comment:</label><br />
+            <textarea id="comment" name="comment" placeholder="Enter your comment" cols="15" rows="5">
+                </textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Making choices</legend>
+            <h3>-------Radio buttons--------</h3>
+            <!-- we use the name to "group" the radio buttons together, these three radio buttons are used to choose genre -->
+            <input type="radio" name="genre" id="rock" value="rock" checked />
+            <label for="rock">Rock</label>
+
+            <input type="radio" name="genre" id="jazz" value="jazz" />
+            <label for="jazz">Jazz</label>
+
+            <input type="radio" name="genre" id="pop" value="pop" />
+            <label for="pop">Pop</label>
+
+            <h3>-------Checkbox--------</h3>
+            <input type="checkbox" name="service" id="appleMusic" value="appleMusic">
+            <label for="appleMusic">Apple music</label>
+
+            <input type="checkbox" name="service" id="googleMusic" value="googleMusic">
+            <label for="googleMusic">Google music</label>
+
+            <input type="checkbox" name="service" id="spotify" value="spotify">
+            <label for="spotify">Spotify</label>
+
+            <h3>-------Dropdown select--------</h3>
+            <label for="instrument">What instrument do you play?</label>
+            <select name="instrument" id="instrument" required>
+                <option value="" selected disabled hidden>Please select</option>
+                <option value="guitar">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="bass">Bass</option>
+            </select>
+
+            <h3>-------Dropdown select multiple--------</h3>
+            <label for="instruments">What instruments do you play?</label>
+            <select name="instruments" id="instruments" required multiple size="3">
+                <option value="" selected disabled hidden>Please select</option>
+                <option value="guitar">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="bass">Bass</option>
+            </select>
+        </fieldset>
+        <h3>-------File input--------</h3>
+        <label for="song">Upload your favorite song:</label>
+        <input type="file" name="song" id="song">
+
+        <h3>-------Submit and reset inputs--------</h3>
+        <input type="submit" value="Subscribe">
+        <input type="reset" value="Reset">
+
+        <h3>-------Submit and reset buttons--------</h3>
+        <button type="submit">Subscribe</button>
+        <button type="reset">Reset</button>
+
+        <input type="hidden" name="user_id" value="U1234">
+    </form>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>HTML 5 specific elements</legend>
+            <h3>-------Email--------</h3>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Enter your email" />
+
+            <h3>-------Url--------</h3>
+            <label for="website">Website:</label>
+            <input type="url" name="website" id="website" required placeholder="Enter your website" />
+
+            <h3>-------Numbers--------</h3>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" />
+
+            <h3>-------Date--------</h3>
+            <label for="bday">Birthday:</label>
+            <input type="date" id="bday" name="bday" />
+
+            <h3>-------Time--------</h3>
+            <label for="time">Select a time:</label>
+            <input type="time" id="time" name="time" />
+
+            <h3>-------Date time--------</h3>
+            <label for="appointment">Select a date and time for your appointment:</label>
+            <input type="datetime-local" id="appointment" name="appointment" />
+
+            <h3>-------Color--------</h3>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000" />
+
+            <h3>-------Range--------</h3>
+            <label for="points">Select your points:</label>
+            <input type="range" id="points" name="points" min="0" max="100" />
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
