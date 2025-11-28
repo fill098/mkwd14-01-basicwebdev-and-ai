@@ -1,0 +1,59 @@
+/* universal selector */
+
+* {
+    font-family: fantasy;
+}
+
+/* type selector */
+
+main {
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 22px;
+}
+
+/* class selector */
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.blue-text {
+    color: blue;
+}
+
+/* Id selector */
+
+#links {
+    font-size: 50px;
+}
+
+/* child selector */
+
+section > p {
+    background-color: darkcyan;
+}
+
+section > p > span  {
+    font-size: 32px;
+}
+
+/* Descendant selector */
+
+main li {
+    color: violet;
+}
+
+/* adjacent sibling selector */
+
+h1 + span {
+    font-size: 18px;
+}
+
+/* general sibling selector */
+
+h1 ~ ul {
+    background-color: yellowgreen;
+}
