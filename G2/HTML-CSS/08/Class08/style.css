@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Science Gothic";
+  src: url("./src/static/ScienceGothic-Regular.ttf") format("truetype");
+}
+
+body {
+  font-size: 12px;
+}
+.hehe {
+  font-size: 16px;
+}
+
+.text-decoration-modified {
+  /* text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px; */
+  text-decoration: underline wavy lime 3px;
+}
+
+.modified-line-height {
+  line-height: 1;
+}
+
+.modified-kerning {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.red-text-shadow {
+  text-shadow: 1px 1px 2px #0003;
+}
+
+.red-text-shadow::first-letter {
+  text-shadow: 1px 1px 2px red;
+}
+p{
+    vertical-align: top;
+}
+p::first-letter {
+  font-size: 300%;
+  font-weight: bold;
+}
+.red-text-shadow::first-line {
+  text-shadow: 1px 1px 2px blue;
+}
+.font-science-gothic {
+  font-family: "Science Gothic", sans-serif;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-style: oblique 10deg;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+  font-family: Roboto, Helvetica, sans-serif;
+}
