@@ -1,0 +1,56 @@
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: crimson;
+}
+
+.btn:active {
+    background-color: black;
+    color: aliceblue;
+}
+
+.input-style {
+    background-color: yellow;
+    color: blue;
+}
+
+.input-style:focus {
+    background-color: blue;
+    color: yellow;
+}
+
+.header:hover {
+    color:blue;
+}
+
+.change-me {
+    color: blue;
+}
+
+.header:hover ~ .change-me {
+    color: gold;
+}
+
+.parent:hover .change-me {
+  color: gold;
+}
+
+
+.hover-effect {
+  background-color: blue;
+  color: white;
+}

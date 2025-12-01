@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Working Hover Periodic Table</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Container: legend and table MUST be siblings */
+.wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+/* Legend items */
+.legend div {
+    border: 1px solid #ccc;
+    width: 180px;
+    padding: 8px;
+    margin: 6px 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Simple table grid */
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 8px;
+}
+
+.element {
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    text-align: center;
+    background: #f2f2f2;
+    transition: 0.25s;
+}
+
+/* COLORS */
+.alkali      { background-color: #ffe0e0; }
+.alkaline    { background-color: #e0ffe0; }
+.transition  { background-color: #e0e0ff; }
+.nonmetal    { background-color: #fff2cc; }
+
+/* ============================== */
+/* THE IMPORTANT HOVER LOGIC      */
+/* ============================== */
+
+/* Hover Alkali in legend → highlight alkali in table */
+.legend .alkali:hover ~ .table .alkali {
+    outline: 3px solid red;
+    transform: scale(1.15);
+}
+
+/* Hover Alkaline Earth → highlight */
+.legend .alkaline:hover ~ .table .alkaline {
+    outline: 3px solid blue;
+    transform: scale(1.15);
+}
+
+/* Hover Transition Metal → highlight */
+.legend .transition:hover ~ .table .transition {
+    outline: 3px solid blue;
+    transform: scale(1.15);
+}
+
+/* Hover Nonmetal → highlight */
+.legend .nonmetal:hover ~ .table .nonmetal {
+    outline: 3px solid orange;
+    transform: scale(1.15);
+}
+
+</style>
+</head>
+<body>
+
+<h2>Simple Periodic Table — Hover Legend to Highlight</h2>
+
+<div class="wrapper">
+
+    <!-- LEGEND (must be BEFORE .table and SAME LEVEL) -->
+    <div class="legend">
+        <div class="alkali">Alkali Metals</div>
+        <div class="alkaline">Alkaline Earth Metals</div>
+        <div class="transition">Transition Metals</div>
+        <div class="nonmetal">Nonmetals</div>
+    </div>
+
+    <!-- TABLE -->
+    <div class="table">
+        <div class="element alkali">H</div>
+        <div class="element nonmetal">He</div>
+        <div class="element alkali">Li</div>
+        <div class="element alkaline">Be</div>
+        <div class="element transition">B</div>
+        
+        <div class="element nonmetal">C</div>
+        <div class="element nonmetal">N</div>
+        <div class="element nonmetal">O</div>
+        <div class="element nonmetal">F</div>
+        <div class="element nonmetal">Ne</div>
+        
+        <div class="element alkali">Na</div>
+        <div class="element alkaline">Mg</div>
+        <div class="element transition">Al</div>
+        <div class="element transition">Si</div>
+        <div class="element nonmetal">P</div>
+    </div>
+
+</div>
+
+</body>
+</html>

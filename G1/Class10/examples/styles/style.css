@@ -6,5 +6,103 @@
 }
 
 * {
-    font-family: "Open Sans";
+    /* font-family: "Open Sans"; */
+    font-family: "Roboto", sans-serif;
+    /* font-family: "Noto Sans Thaana", sans-serif; */
 }
+
+body {
+    font-size: 18px;
+}
+
+.text-size {
+    /* Absolute size */
+    /* font-size: xx-large; */
+
+    /* Relative size */
+    /* font-size: larger; */
+
+    font-size: 200%;
+    /* font-size: 1.3em;
+    font-size: 1.2rem; */
+}
+
+.text-weight {
+    /* font-weight: lighter; */
+    /* font-weight: bold; */
+    /* font-weight: 700; */
+}
+
+.text-style {
+    /* font-style: oblique 40deg; */
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.text-decoration {
+    text-decoration: line-through;
+}
+
+.decoration {
+    /* text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px; */
+
+    text-decoration-line: line-through overline underline;
+
+    /* text-decoration: underline overline blue wavy 10px; */
+
+}
+
+.text-style {
+    line-height: 150%;
+    letter-spacing: normal;
+    word-spacing: 5px;
+    /* word-break: break-all; */
+    /* word-wrap: break-word; */
+
+    text-align: center;
+    /* text-shadow: 5px 5px 5px ; */
+}
+
+.text-fl-pseudo::first-letter {
+    font-size: 300%;
+    font-family: fantasy;
+    color: blue;
+    text-shadow: 10px 10px 5px black;
+}
+
+.text-fr-pseudo::first-line {
+    font-size: large;
+    font-family: monospace;
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* best practice */
+.text-size-small {
+    font-size: small;
+}
+
+.text-size-medium {
+    font-size: medium;
+}
+
+.text-size-large {
+    font-size: large;
+}
+
+/* Not wrong but difficult for maintenance */
+/* .heading-porfolio-font-size {
+
+}
+
+.paragraph-portfolio-first-section-font-size {
+
+}
+
+.footer-portfolio-span-font-size {
+
+} */
