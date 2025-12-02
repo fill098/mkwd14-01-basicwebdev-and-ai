@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 5px solid red;
+        }
+
+        .text-black {
+            color: black;
+        }
+
+        .blue-background {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hello!</p>
+
+    <!-- Inline styling -->
+    <h1 style="color: blue; font-size: 45px;">Intro to CSS</h1>
+    <article style="background-color: yellow;">
+        <h2>Welcome...</h2>
+        <p style="color: magenta; font-size: 15px; background-color: lightgreen;">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptatem
+            vitae recusandae deleniti nulla maxime sint, cupiditate pariatur dolor eveniet, dolore dolorem molestias
+            culpa
+            corporis consectetur laboriosam hic? Laborum, iste! Omnis distinctio iure ad commodi magnam dolor facere
+            delectus necessitatibus debitis ducimus! Necessitatibus vero corrupti dolores voluptate blanditiis eligendi
+            deserunt in?</p>
+    </article>
+
+    <!-- Embedded style -->
+    <div>
+        <!-- You can add multiple classes to an element -->
+        <p class="blue-background text-black">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis delectus recusandae dolores cum alias
+            distinctio suscipit voluptates optio illum consectetur, natus quibusdam ea fugit aliquid beatae, laudantium
+            rerum fugiat aspernatur voluptatem aperiam laborum? Repellendus, omnis iste suscipit alias iusto, veniam
+            deleniti, nihil commodi quam minus repellat! Accusamus perferendis omnis illum.
+        </p>
+        <p>Hello world!</p>
+        <p class="text-black">Paragraph!</p>
+    </div>
+
+    <!-- External style sheet -->
+    <h3>Movies list</h3>
+    <ol>
+        <li>Fantasy
+            <ol id="fantasyList">
+                <li id="harryPotter">Harry Potter</li>
+                <li class="fantasyMovie">Lord of the rings</li>
+                <li class="fantasyMovie">Star wars</li>
+            </ol>
+        </li>
+        <li>Action
+            <ol id="actionList">
+                <li>John Wick</li>
+                <li class="actionMovie">Mad Max: Fury Road</li>
+                <li class="actionMovie">The Dark Knight</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+
+</html>
+
+<link rel="stylesheet" type="text/css" href="style.css" />

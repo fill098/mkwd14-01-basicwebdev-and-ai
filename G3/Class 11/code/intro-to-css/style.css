@@ -1,0 +1,35 @@
+p {
+    color: red;
+}
+
+/* Ctrl + ? to comment out something */
+/* Id selector */ 
+#fantasyList{
+    background-color: lightgrey;
+}
+
+#harryPotter{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#actionList{
+    background-color: rgb(190, 127, 75);
+    background-color: hsla(0,100%,20%,0.5);
+}
+
+/* Tag/element selector */
+h3{
+    color: #9ee6db;
+}
+
+/* Class selector */
+.fantasyMovie{
+    color:chartreuse;
+    font-style: italic;
+}
+
+.actionMovie{
+    color: orange;
+    font-style: italic;
+}
