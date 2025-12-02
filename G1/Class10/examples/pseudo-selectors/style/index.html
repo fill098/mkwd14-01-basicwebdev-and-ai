@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+</head>
+
+<body>
+    
+    <button id="myBtn">Hover me</button>
+    
+    <hr>
+    <p class="test">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="test">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="test">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="test">Lorem ipsum dolor sit amet.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="https://google.com">Google.com</a>
+
+
+    <button class="btn" type="button">Click me!</button>
+
+    <input type="text" class="input-style">
+
+    <h2>Test</h2>
+    <section class="parent">
+        <h1 class="header">Lorem ipsum dolor sit amet.</h1>
+        <p class="change-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos optio, consectetur quidem
+            consequatur quis nam accusantium eligendi, aspernatur, incidunt laboriosam rerum inventore dolorum! Tempora iste
+            doloribus quia consequatur! Magni, laborum.</p>
+    </section>
+
+
+    <script>
+        const btn = document.getElementById('myBtn');
+
+        btn.addEventListener('mouseover', () => {
+            btn.classList.add('hover-effect');
+            document.getElementsByClassName('test')[0].classList.add('hover-effect')
+        });
+
+        btn.addEventListener('mouseout', () => {
+            btn.classList.remove('hover-effect');
+            document.getElementsByClassName('test')[0].classList.remove('hover-effect')
+        });
+    </script>
+</body>
+
+</html>

@@ -21,6 +21,15 @@
     * [Images](./Class07/Images/)
     * [Tables](./Class07/Tables//)
     * [Forms](./Class07/Forms//)
+  * Class08
+    * [Semantic layout](./Class08/SemanticLayout/)
+    * [Audio, Video and iFrame](./Class08/AudioVideoAndMeta/)
+  * Class09
+    * [Css introduction](./Class09/css-introduction/)
+    * [Css colors](./Class09/css-colors/)
+  * Class10
+    * [Css text formating](./Class10/css-text-formating/)
+    * [Css pseudo selectors](./Class10/css-pseudo-selectors/)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 

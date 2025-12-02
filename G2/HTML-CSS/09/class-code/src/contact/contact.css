@@ -1,0 +1,39 @@
+/* Use .page-title, .page-section, .page-content from main.css */
+.page-content img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(10, 26, 47, 0.15);
+  border: 3px solid #20b2aa;
+}
+.contact-info {
+  flex: 1;
+  color: #ffeedd;
+  font-size: 1.1rem;
+}
+.contact-info h2 {
+  color: #20b2aa;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.contact-info a {
+  color: #20b2aa;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #ffeedd;
+}
+@media (max-width: 700px) {
+  .navbar ul {
+    gap: 1rem;
+    font-size: 0.95rem;
+  }
+  .page-content img {
+    width: 100%;
+    height: 160px;
+  }
+}

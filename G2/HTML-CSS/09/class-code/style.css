@@ -1,0 +1,113 @@
+.hero-bg {
+  position: relative;
+  background: url(./src/images/fruit-website-hero.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* <-- PARALLAX EFFECT */
+  overflow: hidden;
+}
+
+/* Product section styles */
+.product-section {
+  width: 100%;
+  padding: 3rem 0 2rem 0;
+  background: linear-gradient(180deg, #1a2a4f 0%, #0a1a2f 100%);
+  min-height: 100vh;
+  margin-top: -5px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.product-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(10, 26, 47, 0.15);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #ffeedd;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.product-item:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(32, 178, 170, 0.15);
+}
+.product-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #20b2aa;
+}
+.product-item h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #ffeedd;
+}
+.price {
+  font-size: 1.1rem;
+  color: #20b2aa;
+  margin-bottom: 0.7rem;
+}
+.buy-link {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: #20b2aa;
+  color: #0a1a2f;
+  border-radius: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  margin-top: 0.5rem;
+}
+.buy-link:hover {
+  background: #ffeedd;
+  color: #20b2aa;
+}
+
+.hero-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  z-index: 2;
+  opacity: 0;
+  animation: fadeInDown 1.2s ease-out 0.5s forwards;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+img[alt=""] {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
