@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 25%;
+}
+.content {
+  float: right;
+  width: 75%;
+}
+header {
+  background-color: #afafaf;
+  text-align: center;
+}
+nav {
+  background-color: #d3d3d3;
+  text-align: center;
+}
+main {
+  background-color: red;
+  width: 100%;
+}
+aside {
+  background-color: #c3c3c3;
+}
+footer {
+  background-color: #b0b0b0;
+  height: 50px;
+  text-align: center;
+}
