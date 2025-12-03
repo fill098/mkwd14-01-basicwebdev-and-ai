@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+.color-box {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+
+.position-lecture-margin {
+    /* Specify every margin specificaly */
+    /* margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    /* Specify maring specificaly but in one line top->right->bottom->left */
+    /* margin: 50px 60px 70px 80px; */
+
+    /* Specify maring specificaly but in one line top/bottom right/left */
+    /* margin: 50px 60px; */
+
+    margin: 10px;
+}
+
+.position-lecture-padding {
+    margin: 10px;
+
+    /* Specify every padding specificaly */
+    /* padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 23px; */
+
+    
+    /* Specify padding specificaly but in one line top->right->bottom->left */
+    /* padding: 10px 15px 20px 25px; */
+
+    /* Specify padding specificaly but in one line top/bottom right/left */
+    /* padding: 15px 20px; */
+
+    padding: 15px;
+}
+
+.position-lecture-border {
+    /* specify every property on their own */
+    /* border-style: dashed;
+    border-color: black;
+    border-width: 5px; */
+
+    /* border-color: black yellow green red;
+    border-style: double dotted dashed ridge;
+    border-width: 10px 25px 35px 45px; */
+
+    /* border-color:  yellow  red;
+    border-style: double  dashed ;
+    border-width: 10px  35px ; */
+
+    /* border: 5px solid blue; */
+
+    /* Specify for witch side you want */
+    /* border-left-style: dashed;
+    border-left-color: black;
+    border-left-width: 10px; */
+
+    /* border-right: 10px dotted darkkhaki; */
+
+    border: 2px solid black;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+}
