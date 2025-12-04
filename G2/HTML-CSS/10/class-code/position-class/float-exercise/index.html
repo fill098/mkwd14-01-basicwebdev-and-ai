@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Float Exercise Example</h1>
+      <p>Learning how to use CSS float for layout.</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Exercises</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <aside class="menu">
+        <h2>Sidebar</h2>
+        <ul>
+          <li>Tip 1: Use clear to fix float issues.</li>
+          <li>Tip 2: Floats are great for images.</li>
+          <li>Tip 3: Remember to use overflow.</li>
+        </ul>
+      </aside>
+      <section class="content">
+        <h2>Main Content</h2>
+        <p>
+          This section demonstrates how floated elements can be used to create
+          multi-column layouts. Try adding images or boxes and floating them
+          left or right to see how the layout changes.
+        </p>
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Sample Image"
+          style="float: left; margin: 0 15px 15px 0"
+        />
+        <p>
+          Notice how this text wraps around the floated image. Floats are a
+          classic CSS technique for positioning elements side by side.
+        </p>
+      </section>
+    </main>
+    <footer class="clearfix">
+      <p>&copy; 2024 Float Exercise. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
