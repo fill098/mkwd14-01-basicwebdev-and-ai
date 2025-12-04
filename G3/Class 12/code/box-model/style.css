@@ -1,0 +1,60 @@
+
+*{
+    box-sizing: border-box;
+}
+a:link{
+    color: lightcoral;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    color: cyan;
+}
+
+a:active{
+    color: blue;
+}
+
+/* We specify that we don't want any bullet points for the navigation menu */
+.navigation-menu{
+    list-style-type: none;
+}
+
+header{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.search-button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.search-button:active{
+    background-color: orange;
+}
+
+.search-button:focus{
+    border: 10px solid blue;
+}
+
+.div{
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 8px;
+    margin:10px;
+}
+
+.span {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    /* display: block; */
+    display: inline-block;
+    /* display: none; */
+}
