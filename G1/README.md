@@ -29,6 +29,10 @@
     * [Css colors](./Class09/css-colors/)
   * Class10
     * [Css text formating](./Class10/css-text-formating/)
+    * [Css pseudo selectors](./Class10/css-pseudo-selectors/)
+  * Class11
+    * [Box model](./Class11/box-model/)
+    * [Positioning](./Class11/positioning//)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 

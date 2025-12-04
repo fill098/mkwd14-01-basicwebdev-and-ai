@@ -5,41 +5,51 @@
 <body>
     <form id="form">
         <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+        <input class="test" type="text" name="name" id="name">
+        
+        <label for="email">Email</label>
+        <input class="test" type="text" name="email" id="email">
+        
+        <label for="phone">Phone</label>
+        <input class="test" type="text" name="phone" id="phone">
+        <br>
         
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        
+        <input class="test" type="password" name="password" id="password">
+        <br>
         <label for="gender">Gender</label>
-        <input type="radio" name="gender" value="Male">
-        <input type="radio" name="gender" value="Female">
+        <input class="test" type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input class="test" type="radio" name="gender" id="female" value="female">
+        <label for="male">Female</label>
+        <br>
+
         
         <label for="continent">Continent</label>
-        <select name="continent" id="continent">
+        <select class="test" name="continent" id="continent">
             <option value="europe">Europe</option>
-            <option value="europe">Asia</option>
-            <option value="europe">Africa</option>
-            <option value="europe">South America</option>
-        </select>        
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="south-america">South America</option>
+        </select>     
+        
+        <br>
 
         <label for="name">Meals</label>
-        <input type="checkbox" name="breakfast" id="breakfast">
-        <input type="checkbox" name="lunch" id="lunch">
-        <input type="checkbox" name="dinner" id="dinner">
-
+        <input class="test" type="checkbox" name="breakfast" id="breakfast">
+        <label for="breakfast">Breakfast</label>
+        <input class="test" type="checkbox" name="lunch" id="lunch">
+        <label for="lunch">Lunch</label>
+        <input class="test" type="checkbox" name="dinner" id="dinner">
+        <label for="dinner">Dinner</label>
+        <input class="test" type="checkbox" name="late-branch" id="late-branch">
+        <label for="late-branch">Late Branch</label>
+        <br>
         <label for="remark">Remarks</label>
-        <textarea name="remarks" id="remarks" cols="20" rows="4"></textarea>
+        <textarea class="test" name="remarks" id="remarks" cols="20" rows="4"></textarea>
 
         <button type="button" id="abc">Click me</button>
     </form>
-    <script>
-        console.log('Loaded');
-        document.getElementById('abc').on('click', function() {
-            const form = document.getElementById('form');
-            let inputs = form.getElementsByTagName('input');
-            console.log(inputs);
-        })
-        // inputs.map(x => { return { x.name, x.value} })
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

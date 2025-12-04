@@ -1,0 +1,156 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@400;700&family=Redacted+Script&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+p {
+    font-family: 'Comforter', cursive;
+}
+
+p.second-paragraph {
+    font-family: 'Redacted Script', cursive;
+}
+
+/* Link and visited pseudo classes */
+a.google:link {
+    text-decoration: none;
+    color: black;
+}
+
+a.google:visited {
+    color: brown;
+}
+
+.search-button {
+    background-color: grey;
+    color: white;
+}
+
+.search-button:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+.search-button:active {
+    background-color: darkslateblue;
+}
+
+.search-button:focus {
+    background-color: deeppink;
+}
+
+.search-input:focus {
+    border-color: red;
+    border-width: 10px;
+}
+
+.block-level-div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 201, 201);
+    display: inline-block;
+    width: 45%;
+}
+
+.navigation-menu {
+    list-style-type: none;
+}
+
+.navigation-menu > li {
+    display: inline-block;
+}
+
+.navigation-menu > li > a {
+    text-decoration: none;
+}
+
+/* ==========================================
+   📦 BOX MODEL AND SPACING PROPERTIES
+   ========================================== */
+
+/* Copilot: Create a box that is 300px wide, 150px tall, with 10px padding, 1px solid black border, and 10px margin */
+.standard-box-model {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* Copilot: Use border-box so total width/height includes padding and border */
+.alternative-box-model {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+/* Copilot: Apply 20px margin on top, 15px on right, 30px bottom, 10px left */
+.margin-property {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+    /* Copilot: Use shorthand for same margin values */
+    margin: 20px 15px 30px 10px;
+    margin: 20px 15px 30px;
+    margin: 20px 15px;
+    margin: 20px;
+}
+
+/* Copilot: Add padding — 20px top, 15px right, 10px bottom, 5px left */
+.padding-property {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+
+    /* Copilot: Simplify with padding shorthand */
+    padding: 20px 15px 10px 5px;
+    padding: 20px 15px 30px;
+    padding: 20px 15px;
+    padding: 20px;
+}
+
+/* Copilot: Create a box with colored borders on each side — yellow top, red right, blue bottom, green left */
+.border-property {
+    border-top: 5px solid yellow;
+    border-right: 10px solid red;
+    border-bottom: 15px solid blue;
+    border-left: 20px solid green;
+
+
+    /* Copilot: Use shorthand for border width */
+    border-width: 5px 10px 15px 20px;
+    border-style: solid;
+    border-color: yellow red blue green;
+
+    /* Copilot: Use dotted style and multi-color border */
+    border-style: dotted;
+    border-color: yellow red blue green;
+}
+
+.border-property > span {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* Copilot: Add scrollbars when content exceeds 300x150px area */
+.overflow-property {
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+}
+
+/* Copilot: Center this 300x150px box horizontally using margin auto */
+.center-element {
+    border: 2px solid black;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+}

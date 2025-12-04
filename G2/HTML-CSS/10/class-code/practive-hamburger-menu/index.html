@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hilux Horizons | Arabian Desert Safaris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-shell">
+    <div class="nav">
+      <div class="brand">Hilux <span>Horizons</span></div>
+      <div class="menu">
+        <a href="#fleet">Fleet</a>
+        <a href="#popups">Popups</a>
+        <a href="#booking">Book</a>
+        <a href="#dakar">DAKKAR Line</a>
+        <a class="cta" href="#booking">Reserve</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="menu-panel" id="menuPanel">
+        <a href="#fleet">Fleet</a>
+        <a href="#popups">Popups</a>
+        <a href="#booking">Book</a>
+        <a href="#dakar">DAKKAR Line</a>
+        <a class="cta" href="#booking">Reserve</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="dakar">
+    <div class="hero-card">
+      <div class="glow one"></div><div class="glow two"></div>
+      <div class="eyebrow">Arabian Deserts - Dakar Lines</div>
+      <div class="title">Desert Safari masterclass with Toyota Hilux & modern SUVs</div>
+      <p class="lead">Carve across crimson dunes, trace Bedouin caravan trails, and push Dakar-grade routes with expert pilots. Our Hilux fleet and armored SUVs are kitted for dawn runs, night navigation, and cinematic desert stories.</p>
+      <div class="badges">
+        <div class="badge">Guided Dakar corridors</div>
+        <div class="badge">Sunrise dune climb</div>
+        <div class="badge">Night dune lights</div>
+        <div class="badge">Bedouin fireside cuisine</div>
+      </div>
+      <div class="cta-row">
+        <a class="cta" href="#booking">Book a Dakar slot</a>
+        <a class="ghost" href="#popups">See popups demo</a>
+        <div class="badge">48h confirmation</div>
+      </div>
+      <div class="sticky-card">Sticky note: this card is <strong>position: sticky</strong>; scroll and it stays anchored to show the sticky behavior.</div>
+    </div>
+    <div class="scene">
+      <div class="absolute-tag">Absolute popup</div>
+      <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1518989229647-6377f907a0a8?auto=format&fit=crop&w=800&q=60">
+        <source src="https://cdn.coverr.co/videos/coverr-off-road-journey-6210/1080p.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="floating-pop">Hovering info: <strong>position:absolute</strong> + high z-index keeps me above the dunes.</div>
+    </div>
+  </section>
+
+  <section class="lab" id="popups">
+    <div>
+      <h2>Popup lab: z-index, absolute, relative, sticky</h2>
+      <p>Use the controls to see how stacking contexts respond. The sticky label stays in view, the floating badge sits on a relative parent, and the modal lifts to the highest z-index.</p>
+    </div>
+    <div class="layer-grid">
+      <div class="layer-box">
+        <div class="sticky-note">Sticky</div>
+        <div class="layer-stack" id="layerStack">
+          <div class="layer one" data-layer="1">Layer 1: Sand</div>
+          <div class="layer two" data-layer="2">Layer 2: Teal wind</div>
+          <div class="layer three active" data-layer="3">Layer 3: Sun crest</div>
+          <div class="floating-pop">Absolute badge (z:4)</div>
+        </div>
+        <div class="control-row">
+          <button id="shuffle">Lift next layer</button>
+          <button id="openModal">Open modal overlay</button>
+        </div>
+      </div>
+      <div class="layer-box">
+        <div class="sticky-note">Relative parent</div>
+        <p class="text-muted push-down">This card is <strong>position: relative</strong>. The floating chips are positioned absolutely inside it while respecting its bounds.</p>
+        <div class="badges mt-16">
+          <div class="badge">Teal trails</div>
+          <div class="badge">Hilux dune dives</div>
+          <div class="badge">Night convoy</div>
+        </div>
+        <div class="floating-pop lower">Absolute chip</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="modal">
+    <div class="panel">
+      <button class="close" id="closeModal" aria-label="Close">x</button>
+      <div class="eyebrow">Z-index 30</div>
+      <h3 class="modal-title">Overlay at the top of the stack</h3>
+      <p class="text-muted">This modal sits above every popup using a higher z-index and a fixed position. Try scrolling to see how it stays pinned while everything else moves beneath it.</p>
+    </div>
+  </div>
+
+  <section class="fleet" id="fleet">
+    <div class="card">
+      <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=900&q=60">
+        <source src="https://cdn.coverr.co/videos/coverr-desert-drive-6864/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="body">
+        <div class="pill">Toyota Hilux Dakar tune</div>
+        <h3>Hilux Ridge Runner</h3>
+        <p>Fox dampers, beadlocks, sand ladders, and Dakar nav kit for aggressive dune surfing.</p>
+      </div>
+    </div>
+    <div class="card">
+      <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1517420874810-3fba02c1a5b8?auto=format&fit=crop&w=900&q=60">
+        <source src="https://cdn.coverr.co/videos/coverr-driving-through-the-desert-4950/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="body">
+        <div class="pill">Twin-turbo SUV</div>
+        <h3>Night Falcon SUV</h3>
+        <p>Adaptive ride, luxe cooled cabins, and spotlight rigs for night dune navigation.</p>
+      </div>
+    </div>
+    <div class="card">
+      <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=60">
+        <source src="https://cdn.coverr.co/videos/coverr-desert-camping-8027/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="body">
+        <div class="pill">Bedouin camp</div>
+        <h3>Camp Majlis</h3>
+        <p>Private majlis tents, oud soundscapes, camel meetups, and coffee ceremonies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <div>
+      <div class="eyebrow">Reserve</div>
+      <h2 class="booking-title">Book your desert safari</h2>
+      <p class="text-muted">Pick a Dakar-inspired route, choose your rig, and we will prep fuel, recovery gear, and Bedouin hospitality.</p>
+    </div>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" placeholder="Your name" />
+      </div>
+      <div>
+        <label for="date">Preferred date</label>
+        <input id="date" type="date" />
+      </div>
+      <div>
+        <label for="ride">Pick your ride</label>
+        <select id="ride">
+          <option>Hilux Ridge Runner</option>
+          <option>Night Falcon SUV</option>
+          <option>Support Cruiser</option>
+        </select>
+      </div>
+      <div>
+        <label for="notes">Notes</label>
+        <textarea id="notes" rows="3" placeholder="Tell us the vibe: sunrise, night run, dunes, Bedouin camp..."></textarea>
+      </div>
+      <button type="button" class="cta">Request my slot</button>
+    </form>
+  </section>
+
+  <footer>
+    Hilux Horizons - Arabian Desert Safaris - Dakar-inspired routes - Bedouin-crafted hospitality
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
