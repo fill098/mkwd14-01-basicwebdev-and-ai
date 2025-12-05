@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("imported-fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+#first-h1{
+    font-family: 'Arial Narrow', 'Arial', sans-serif;
+}
+
+#second-h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.small-size-font{
+    font-size: smaller;
+}
+
+.paragraph-2{
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: dashed underline;
+    /* line-height: 0.5em; */
+    line-height: 3em;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+.paragraph-1{
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+}
+
+.paragraph-3::first-letter{
+    font-size: 3rem;
+    color: red;
+}
+
+.paragraph-4::first-line{
+    font-size: 3rem;
+    color: blue;
+}
+
+/* p::first-letter{
+color: red;
+} */

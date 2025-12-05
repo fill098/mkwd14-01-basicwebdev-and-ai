@@ -1,0 +1,162 @@
+/* -------------------------------------------------
+   ADD Custom Font
+------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------
+   General Page Styles
+------------------------------------------------- */
+body {
+    margin: 0;
+    background-color: #5ba053; /* Hulk greenish */
+    color: white;
+    font-family: "MyCustomFont", sans-serif;
+    line-height: 1.6;
+}
+
+/* -------------------------------------------------
+   Header & Navigation
+------------------------------------------------- */
+header {
+    background: #215743; /* dark Hulk green */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------
+   Container Layout (no flex/grid)
+------------------------------------------------- */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2e4231;
+    border: 3px solid #365540;
+}
+
+/* -------------------------------------------------
+   Headings
+------------------------------------------------- */
+h1, h2, h3 {
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+/* -------------------------------------------------
+   Sections & Articles
+------------------------------------------------- */
+section, article {
+    margin-bottom: 20px;
+}
+
+/* -------------------------------------------------
+   Sidebar
+------------------------------------------------- */
+aside {
+    background: #3d5e35;
+    padding: 15px;
+    border-left: 4px solid #97fb96;
+}
+
+/* -------------------------------------------------
+   Gallery
+------------------------------------------------- */
+.gallery-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* -------------------------------------------------
+   Contact Form
+------------------------------------------------- */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background: #215743;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #3b6c3b;
+}
+
+/* -------------------------------------------------
+   Footer
+------------------------------------------------- */
+footer {
+    background: #215743;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+/* Sidebar floats left */
+.sidebar {
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+    background: #3d5e35;
+    padding: 15px;
+    border-left: 4px solid #97fb96;
+    box-sizing: border-box;
+}
+
+/* Main content floats next to sidebar */
+.main-content {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+
+.sidebar ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
