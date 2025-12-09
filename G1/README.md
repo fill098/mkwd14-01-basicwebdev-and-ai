@@ -21,18 +21,20 @@
     * [Images](./Class07/Images/)
     * [Tables](./Class07/Tables//)
     * [Forms](./Class07/Forms//)
-  * Class08
+  * Class 08
     * [Semantic layout](./Class08/SemanticLayout/)
     * [Audio, Video and iFrame](./Class08/AudioVideoAndMeta/)
-  * Class09
+  * Class 09
     * [Css introduction](./Class09/css-introduction/)
     * [Css colors](./Class09/css-colors/)
-  * Class10
+  * Class 10
     * [Css text formating](./Class10/css-text-formating/)
     * [Css pseudo selectors](./Class10/css-pseudo-selectors/)
-  * Class11
+  * Class 11
     * [Box model](./Class11/box-model/)
     * [Positioning](./Class11/positioning//)
+  * Class 12
+    * [Workshop](./Class12/workshop/)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 
@@ -41,6 +43,7 @@
 * Homework
   * [Task00](./Homeworks/Task00/)
   * [Task01](./Homeworks/Task01/)
+  * [Task02](./Homeworks/Task02/)
 
 * Usefull links
   * [Github desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)
