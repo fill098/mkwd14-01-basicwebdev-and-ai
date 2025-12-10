@@ -1,0 +1,12 @@
+.box {
+  background-color: lightgray;
+  float: left;      /* Push the image to the left */
+  margin-right: 15px; /* Add some space between image and text */
+  margin-bottom: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.clear {
+  clear: both;      /* Stop the float so content returns to normal flow */
+}

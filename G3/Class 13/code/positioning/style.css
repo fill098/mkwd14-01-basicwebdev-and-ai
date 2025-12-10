@@ -1,0 +1,42 @@
+.grandparent{
+    background-color: lightblue;
+    padding: 10px;
+    height: 200vh;
+    /* position: relative; */
+}
+
+.parent{
+    background-color: lightyellow;
+    padding: 10px;
+    /* position: relative; */
+    /* position: sticky; */
+}
+
+.child-one{
+    background-color: lightgreen;
+    /* position: relative;
+    top: 10px;
+    left:10px; */
+
+
+    /* the div stops acting like a block element */
+    /* position: absolute;
+    top: 0px;
+    left: 10px; */
+
+    /* acts like absolute, but it positions itself relative to the whole view */
+    /* position: fixed;
+    top: 20px;
+    right: 50px; */
+
+    position: sticky;
+    top: 0px;
+}
+
+.child-two{
+    background-color: lightcoral;
+}
+
+.child-three{
+    background-color: lightpink;
+}
