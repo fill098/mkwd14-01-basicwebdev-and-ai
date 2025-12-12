@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    padding: 3em 0;
+    font-size: 30px;
+}
+
+article {
+    background-color: white;
+    padding: 5em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #b3b3b3;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+
+.parent {
+    border: 5px solid lightcoral;
+}
+
+.item {
+    background-color: deepskyblue;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 5px;
+}
+
+/* Dispaly flex */
+.example-flex {
+    display: flex;
+}
+
+/* Flex direction */
+.example-direction {
+    display: flex;
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: row;
+}
+
+.example-direction .item {
+    width: 150px;
+}
+
+/* Flex wrap */
+.example-wrap {
+    display: flex;
+/* 
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+}
+
+.example-wrap .item {
+    width: 150px;
+}
