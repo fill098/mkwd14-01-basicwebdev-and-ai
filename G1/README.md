@@ -35,6 +35,10 @@
     * [Positioning](./Class11/positioning//)
   * Class 12
     * [Workshop](./Class12/workshop/)
+  * Class 13
+    * [Responsive design](./Class13/responsive-design/)
+  * Class 14
+    * [Flex box](./Class14/flex-box/)
   * Tools
     * [VsCode and Github](./Tools/VSCode and Github/)
 

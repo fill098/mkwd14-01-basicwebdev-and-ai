@@ -1,0 +1,33 @@
+.box {
+  width: 150px;
+  height: 150px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute; /* Needed for overlap */
+}
+
+/* The three boxes */
+.box1 {
+  background: red;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* Lowest */
+}
+
+.box2 {
+  background: blue;
+  top: 60px;
+  left: 60px;
+  z-index: 3; /* Highest → will appear on top */
+}
+
+.box3 {
+  background: green;
+  top: 100px;
+  left: 100px;
+  z-index: 2; /* Middle layer */
+}
