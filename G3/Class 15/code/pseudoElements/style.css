@@ -1,0 +1,32 @@
+p::first-letter{
+    color: lightcoral;
+    font-size: 40px;
+}
+
+p::first-line{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: lightblue;
+    color:blue;
+}
+
+h2::before{
+    content:"Web Development - ";
+    color: grey;
+    background-color: limegreen;
+}
+
+/* Insert an image after the h2 element */
+h2::after{
+    content: url("https://hips.hearstapps.com/hmg-prod/images/close-up-of-beautiful-pink-chrysanthemums-ready-for-royalty-free-image-1728001827.jpg?crop=0.665xw:1.00xh;0.150xw,0");
+    display: block;
+    margin-top: 10px;
+}
+li::marker{
+    content: "✔";
+    color: orange;
+    font-size: 20px;
+}
